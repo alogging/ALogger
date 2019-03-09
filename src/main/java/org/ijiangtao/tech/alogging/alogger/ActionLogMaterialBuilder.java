@@ -1,4 +1,4 @@
-package org.ijiangtao.tech.alogging.alogger;
+package net.ijiangtao.tech.alogging.alogger;
 
 import java.util.Map;
 

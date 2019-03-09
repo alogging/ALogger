@@ -11,7 +11,7 @@
 
 	<aop:config>
 	
-		<aop:pointcut id="saveActionLogPointcut" expression="execution(public * org.ijiangtao.tech.alogging.alogger..*.advice(..))" />
+		<aop:pointcut id="saveActionLogPointcut" expression="execution(public * net.ijiangtao.tech.alogging.alogger..*.advice(..))" />
 		
 		<aop:aspect id="saveLogAspect" ref="actionLogDirector">
 			<aop:before method="after" pointcut-ref="saveActionLogPointcut" />

@@ -1,4 +1,4 @@
-package org.ijiangtao.tech.alogging.alogger;
+package net.ijiangtao.tech.alogging.alogger;
 
 /**
    *  在需要保存日志的地方，将保存日志的原始数据传入此方法即可
